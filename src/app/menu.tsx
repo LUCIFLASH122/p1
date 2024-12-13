@@ -1,12 +1,12 @@
 import { View, Text,ScrollView } from 'react-native'
 import React from 'react'
-import Top from '../cart/top'
-import Items from '../cart/items'
+import MenuTop from '../menu/menutop'
+import Items from '../menu/items'
 
 const menu = () => {
   return (
     <View className='bg-custom-gray"'>
-      <Top/>
+      <MenuTop/>
       <ScrollView>
         <Items/>
       </ScrollView>
